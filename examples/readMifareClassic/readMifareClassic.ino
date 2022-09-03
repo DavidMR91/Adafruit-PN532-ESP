@@ -35,12 +35,12 @@ products from Adafruit!
 #include <SPI.h>
 #include <Adafruit_PN532_ESP.h>
 
-// If using the breakout with SPI, define the pins for SPI communication.
-#define PN532_SCK  (2)
-#define PN532_MOSI (3)
-#define PN532_SS   (4)
-#define PN532_MISO (5)
-#define PN532_FREQ 100000
+// If using the breakout with SPI, define the pins for SPI communication. Example configured for ESP32 S2
+#define PN532_SCK  (36)
+#define PN532_MOSI (35)
+#define PN532_SS   (34)
+#define PN532_MISO (37)
+#define PN532_FREQ (100000)
 
 // If using the breakout or shield with I2C, define just the pins connected
 // to the IRQ and reset lines.  Use the values below (2, 3) for the shield!
