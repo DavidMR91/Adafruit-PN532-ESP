@@ -125,6 +125,22 @@ Adafruit_PN532::Adafruit_PN532(uint8_t clk, uint8_t miso, uint8_t mosi,
   spi_dev = new Adafruit_SPIDevice(ss, clk, miso, mosi, 1000000,
                                    SPI_BITORDER_LSBFIRST, SPI_MODE0);
 }
+/**************************************************************************/
+/*!
+    @brief  Instantiates a new PN532 class using software SPI.
+
+    @param  clk       SPI clock pin (SCK)
+    @param  miso      SPI MISO pin
+    @param  mosi      SPI MOSI pin
+    @param  ss        SPI chip select pin (CS/SSEL)
+    @param  freq      SPI frequency (100000 for ESP32)
+*/
+/**************************************************************************/
+Adafruit_PN532::Adafruit_PN532(uint8_t clk, uint8_t miso, uint8_t mosi,
+                               uint8_t ss, uint32_t freq) {
+  spi_dev = new Adafruit_SPIDevice(ss, clk, miso, mosi, freq,
+                                   SPI_BITORDER_LSBFIRST, SPI_MODE0);
+}
 
 /**************************************************************************/
 /*!
