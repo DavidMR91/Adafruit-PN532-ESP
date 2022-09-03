@@ -49,6 +49,8 @@ products from Adafruit!
 #define PN532_MOSI (3)
 #define PN532_SS   (4)
 #define PN532_MISO (5)
+#define PN532_FREQ (100000) //ESP32
+//#define PN532_FREQ (1000000) //AVR
 
 // If using the breakout or shield with I2C, define just the pins connected
 // to the IRQ and reset lines.  Use the values below (2, 3) for the shield!
