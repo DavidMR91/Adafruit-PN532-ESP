@@ -1,5 +1,4 @@
-# Adafruit-PN532-ESP [![Build Status](https://github.com/adafruit/Adafruit-PN532/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit-PN532/actions)
-
+# Adafruit-PN532-ESP [![Build Status](https://github.com/DavidMR91/Adafruit-PN532-ESP/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/DavidMR91/Adafruit-PN532-ESP/actions)
 
 This is a library for the Adafruit PN532 NFC/RFID breakout boards
 This library works with the Adafruit NFC breakout 
