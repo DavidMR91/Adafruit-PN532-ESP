@@ -1,6 +1,6 @@
 /**************************************************************************/
 /*!
-    @file     Adafruit_PN532.cpp
+    @file     Adafruit_PN532_ESP.cpp
     @author   Adafruit Industries
     @license  BSD (see license.txt)
 
