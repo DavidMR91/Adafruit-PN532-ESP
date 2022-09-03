@@ -152,8 +152,8 @@
 
 class Adafruit_PN532 {
 public:
-  Adafruit_PN532(uint8_t clk, uint8_t miso, uint8_t mosi,
-                 uint8_t ss);                 // Software SPI
+  Adafruit_PN532(uint8_t clk, uint8_t miso, uint8_t mosi, uint8_t ss, uint32_t freq);  // Software SPI
+  Adafruit_PN532(uint8_t clk, uint8_t miso, uint8_t mosi, uint8_t ss);                 // Software SPI
   Adafruit_PN532(uint8_t irq, uint8_t reset); // Hardware I2C
   Adafruit_PN532(uint8_t ss);                 // Hardware SPI
   void begin(void);
